@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        canvas {
+            max-width: 100%;
+        }
+        .source {
+            font-size: 12px;
+            color: #555;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .note {
+            font-size: 12px;
+            color: #555;
+            margin-top: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="dashboard">
+    <div class="card">
+        <canvas id="motivationsChart"></canvas>
+    </div>
+    <div class="card">
+        <canvas id="labelDataChart"></canvas>
+        <div class="source">Source: Annunziata A, et al. (2016). <em>Do Consumers Want More Nutritional and Health Information on Wine Labels?</em> Nutrients, 8(7):416. <a href="https://doi.org/10.3390/nu8070416" target="_blank">https://doi.org/10.3390/nu8070416</a></div>
+        <div class="note">* Values converted from 5-point scale to percentage.</div>
+    </div>
+    <div class="card">
+        <canvas id="regressionDataChart"></canvas>
+        <div class="source">Source: Terry M. Lease, Deirdre Sommerlad-Rogers (2022). <em>U.S. Wine consumer interest in wine ingredient and nutritional information.</em> Wine Economics and Policy 11(2): 41-50. <a href="https://doi.org/10.36253/wep-12577" target="_blank">https://doi.org/10.36253/wep-12577</a></div>
+        <div class="note">* The bars represent the inverse of the p-values (1/p). Positive impacts are shown in teal, and negative impacts are shown in red.</div>
+    </div>
+    <div class="card">
+        <canvas id="wtpChart"></canvas>
+        <div class="source">Source: Shrinking the market space: consumer (overlapping) preferences for organic wines and three alternative competitors. Riccardo Vecchio et al., 2023.</div>
+    </div>
+    <div class="card">
+        <canvas id="socioDemographicChart"></canvas>
+        <div class="source">Source: Shrinking the market space: consumer (overlapping) preferences for organic wines and three alternative competitors. Riccardo Vecchio et al., 2023.</div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="dashboard.js"></script>
+<script src="wtpData.js"></script>
+<script src="socioDemographicData.js"></script>
+
+</body>
+</html>

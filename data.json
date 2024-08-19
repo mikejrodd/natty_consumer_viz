@@ -1,0 +1,69 @@
+{
+    "Italy": {
+      "Self-reported degree of information about": {
+        "Natural wine": 2.88,
+        "Biodynamic wine": 2.45,
+        "Organic wine": 2.96
+      },
+      "Natural wine perceptions": {
+        "Natural wine is environmental friendly": 3.46,
+        "Natural wine does not contain added sulfites": 2.98,
+        "Natural wine is organic": 2.87,
+        "Natural wine does not contain additives": 3.42,
+        "Natural wine is locally produced": 2.74,
+        "Natural wine is handcrafted": 3.26,
+        "Natural wine is like a wine produced by our grandparents": 2.71
+      },
+      "Natural wine consumption frequency": {
+        "At least once a year": 21.5,
+        "At least once a month": 32.3,
+        "At least once a week": 22.7,
+        "2–3 times a week": 15.7,
+        "Daily": 7.8
+      },
+      "Natural wine consumption motivations": {
+        "Natural wine is healthier": 3.60,
+        "Natural wine makes me less drunk": 2.13,
+        "Natural wine causes less hangover": 2.34,
+        "Natural wine is trendy": 2.41,
+        "Natural wine is easier to drink": 2.13,
+        "Natural wine tastes better": 3.00,
+        "Natural wine is sustainable": 3.33,
+        "Natural wine is handcrafted": 3.53
+      }
+    },
+    "Spain": {
+      "Self-reported degree of information about": {
+        "Natural wine": 3.65,
+        "Biodynamic wine": 3.54,
+        "Organic wine": 3.87
+      },
+      "Natural wine perceptions": {
+        "Natural wine is environmental friendly": 3.88,
+        "Natural wine does not contain added sulfites": 4.11,
+        "Natural wine is organic": 3.60,
+        "Natural wine does not contain additives": 4.24,
+        "Natural wine is locally produced": 2.97,
+        "Natural wine is handcrafted": 3.78,
+        "Natural wine is like a wine produced by our grandparents": 3.31
+      },
+      "Natural wine consumption frequency": {
+        "At least once a year": 35.3,
+        "At least once a month": 33.1,
+        "At least once a week": 14.8,
+        "2–3 times a week": 11.2,
+        "Daily": 5.6
+      },
+      "Natural wine consumption motivations": {
+        "Natural wine is healthier": 3.43,
+        "Natural wine makes me less drunk": 1.94,
+        "Natural wine causes less hangover": 2.48,
+        "Natural wine is trendy": 2.23,
+        "Natural wine is easier to drink": 2.23,
+        "Natural wine tastes better": 2.41,
+        "Natural wine is sustainable": 3.49,
+        "Natural wine is handcrafted": 3.65
+      }
+    }
+  }
+  
